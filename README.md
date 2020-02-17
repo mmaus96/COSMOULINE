@@ -220,6 +220,7 @@ The efficiency of this step is yet to be tested...
 2a  : run sextractor on the aligned images, and write the aperture photometry (by default for 30, 90 and 'auto' radius in pixels) in an .alicat file in your alidir. 
 This will be used as a normalisation coefficient later on. Note that this is done on all the sextracted objects of your images.
 
+
 2b (do it) : facultative (but needed for plot, and update photomstar.cat), write these apertures photometry in the db. To do so (and to execute the following facult. scripts as well), you need to define on which stars you want to perform the computations. These stars are to be written in photomstars.cat in your configdir, and can once again be the same that in alistars.cat and normstars.cat
 
 2c (do it, for the PSF)  : facultative, write an estimation of the peak values (with the skylevel) of each stars of photomstars.cat in the db.
@@ -237,7 +238,6 @@ it gives you an idea on the quality of your dataset so far.
 
 5   : make histograms with some statistics of ours plots (ellipticity, seeing, medcoeff and skylevel). It gives also a good idea of the quality of our datasets, 
 but we can disregard the bad images later on...  
-
 
 
 other files
